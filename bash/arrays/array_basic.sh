@@ -25,6 +25,10 @@ declare -A mango=(["colour"]="yellow" ["shape"]="round" ["flavour"]="sweet")
 
 echo "A mango is ${mango[flavour]}"
 
+scripts=$(ls -l ~/scripts/*)
 
+for script in ~/scripts/*; do
+	ls -l $script 
+done
 
 
