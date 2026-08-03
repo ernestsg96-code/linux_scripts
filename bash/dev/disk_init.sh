@@ -64,7 +64,8 @@ else
 		done
 		
 		echo ""
-
+		
+		match=false
 		until [[ $match == true ]]; do
 			echo "please choose from the options" 
 			read -rp "
